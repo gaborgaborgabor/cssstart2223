@@ -1,0 +1,45 @@
+/******** Globals Variables, important stuff**********/
+
+* {
+
+}
+
+html,body {
+    margin:0;
+}
+
+
+/*************** Colors **************************/
+.color1 {background-color: lightblue;}
+.color2 {background-color: yellow;}
+.color3 {background-color: darkblue;}
+
+/*************** standard sizes **************************/
+.w10 {width: 10vw;}
+.w20 {width: 20vw;}
+.w30 {width: 30vw;}
+.w40 {width: 40vw;}
+.w50 {width: 50vw;}
+.h10 {height: 10vh;}
+.h20 {height: 20vh;}
+.h30 {height: 30vh;}
+.h33 {height: calc(100vh / 3);}
+.h40 {height: 40vh;}
+.h50 {height: 50vh;}
+
+/********** Spacer *********/
+.spacer1 {margin-bottom: 1rem;}
+.spacer2 {margin-bottom: 2rem;}
+
+/******* Shadows ******/
+.shadow1 {box-shadow: 5px 5px 10px 0 #C2C2C2;}
+.shadow2 {box-shadow: 5px 5px 10px 0 #575757;}
+
+
+/******** Positions *******/
+.relative {position: relative;}
+.absolute {position: absolute;}
+.child1 {
+    bottom: 0;
+    right: 0;
+}
